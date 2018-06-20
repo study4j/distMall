@@ -11,5 +11,6 @@
 
     <artifactId>service</artifactId>
 
+    <packaging>jar</packaging>
 
 </project>
