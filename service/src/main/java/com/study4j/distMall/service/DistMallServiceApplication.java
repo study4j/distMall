@@ -11,7 +11,7 @@ import org.springframework.boot.context.embedded.EmbeddedServletContainerCustomi
 @EnableAutoConfiguration
 public class DistMallServiceApplication implements EmbeddedServletContainerCustomizer {
 
-    @Value("${spring.port}")
+    @Value("${server.port}")
     private int springPort;
 
     public static void main(String[] args) {
